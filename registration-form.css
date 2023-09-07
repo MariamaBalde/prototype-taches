@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+  background-image: url(profil1.jpg);
+  background-size: cover;
+  margin: 90px;
+
+}
+
+.section{
+    background-color: white;
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+  align-items: center;
+   padding-left: 25px;
+   padding-top: 5px;
+   padding-bottom: 25px;
+   margin-left: 90px;
+   margin-right: 90px;
+   margin-top: 200px;  
+}
+
+img{
+    height: 650px;
+    width: 800px;
+}
+
+  form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .name-field{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .name-field div{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+  }
+
+ form input,select{
+    border: none;
+    border-bottom: 2px solid #aaa;
+    padding: 8px 0px;
+    outline: none;
+    color: #666;
+    font-size: 40px;
+  }
+
+ form label{
+    position: relative;
+    top: 50px;
+    left:5px ;
+    transform: translateY(-50%);
+    color: #aaa;
+    font-size: 20px;
+ }
+
+  form:focus-within label,
+ form.animation label{
+    top: 0px;
+    transform: translateY(20%);
+    color: #DEB887;
+ }
+
+ form:focus-within input
+ form.animation input{
+ border-bottom-color:#DEB887 ;
+ }
+
+ form h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+ }
+
+ input[type="submit"]{
+    background-color: black;
+    color:white ;
+    border: none;
+    position: relative;
+    top: 40px;
+    width: 35%;
+    height: 50px;
+   margin: auto;
+ }
+
+
+  
