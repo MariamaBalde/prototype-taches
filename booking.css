@@ -1,0 +1,97 @@
+body{
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+   color: white;
+   border: 1px solid gray; 
+}
+
+
+ .box form{
+    display: flex;
+    flex-direction: column;
+    background-color: #582704;
+    padding: 30px;
+    width: 645px;
+} 
+ 
+.box img{
+    position: relative;
+    width: 645px;
+    height: 593px;
+    opacity: 0.9;
+}
+
+form input,select{
+    border: none;
+    border-bottom:2px solid burlywood;
+    background-color:  #582704;
+    outline: none;
+    font-size: 20px;
+}
+
+form label{
+    position: relative;
+    top: 18px;
+    transform: translateY(-20%);
+}
+
+form:focus-within label,
+form.animation label{
+    top: 0px;
+    color: burlywood;
+    transform: translateY(20%);
+}
+
+form:focus-within input,
+form.animation input{
+    color: white;
+}
+
+.round{
+    display: flex;
+    gap: 25px;
+    text-align: center;
+   
+}
+
+#div2{
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 15px;
+    background-color: white;
+    color: black;
+}
+
+#div3{
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 80px;
+    padding: 15px;
+    background-color: burlywood ;
+    color: black;
+}
+
+#div1{
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 15px;
+    width: 20px;
+   
+    background-color: white;
+    color: black;
+}
+
+#p2{
+    color: burlywood;
+    margin-top: 10px;
+}
+
+button{
+    border: none;
+    color: white;
+    width: 98px;
+    height: 38px;
+    background-color: burlywood ;
+    margin-top: 50px;
+}

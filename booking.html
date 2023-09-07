@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaires de validation</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+
+<body>
+    <div class="box">
+        <img src="event.jpeg" alt="">
+    </div>
+    <div class="box">
+        <form action="">
+            <h3>Booking place for your dinner!</h3>
+            <label for="name">Your name</label>
+            <input type="text" name="name" id="name">
+
+            <label for="tel">Your phone number</label>
+            <input type="number" name="tel" id="tel">
+
+            <label for="time">Time</label>
+            <select name="time" id="time">
+                <option value="9"></option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+            </select>
+            <label for="food">Food</label>
+            <select name="food" id="food">
+                <option value=""></option>
+                <option value="riz">Riz</option>
+                <option value="poisson">Poisson</option>
+                <option value="viande">Viande</option>
+                <option value="allocaux">Allocaux</option>
+                <option value="fruit">Fruits</option>
+            </select>
+            <p>Select Your Dinning Space</p>
+            <div class="round">
+                <div id="div1">2</div>
+                <div id="div3">4 Person </div>
+                <div id="div1">6</div>
+                <div id="div1">8</div>
+                <div id="div2">10</div>
+            </div>
+
+            <button type="submit">Book now</button>
+            <p id="p2">Verify your booking intto your phone</p>
+        </form>
+    </div>
+</body>
+
+</html>
