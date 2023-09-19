@@ -18,12 +18,8 @@ body{
    flex-direction: row;
    justify-content: center;
   align-items: center;
-   padding-left: 25px;
-   padding-top: 5px;
-   padding-bottom: 25px;
-   margin-left: 90px;
-   margin-right: 90px;
-   margin-top: 200px;  
+   padding:5px 0px 25px 25px ;
+   margin:200px 90px 0px 90px ;
 }
 
 img{
@@ -57,7 +53,7 @@ img{
     font-size: 40px;
   }
 
- form label{
+  form label{
     position: relative;
     top: 50px;
     left:5px ;
